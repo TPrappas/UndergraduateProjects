@@ -1,0 +1,181 @@
+//μετράει τον αριθμό των αιτήσιων για τις θέσεις εργασίας που είναι υπεύθυνος ο evaluator
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `applyCount`(IN evaluator VARCHAR(12))
+BEGIN
+SELECT COUNT(employee) FROM request_evaluation
+INNER JOIN job ON request_evaluation.job_id = job.id
+WHERE job.evaluator = evaluator;
+END
+
+//Ο υπάλληλος μπορεί να αλλάξει το bio του
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `changeDataBioEmployee`(IN employee VARCHAR(12),IN newbio TEXT)
+BEGIN 
+SET FOREIGN_KEY_CHECKS=0;
+UPDATE employee
+SET bio = newbio
+where emplUsername =  employee;
+if (@rowcount > 0)
+THEN
+INSERT INTO logs VALUES
+( employee , 'Changing Bio', TIMESTAMP);
+END IF;
+END
+
+//Ο χρήστης μπορεί να αλλάξει το mail του
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `changeDataEmailEvaluator`(IN eval VARCHAR(12), IN eml VARCHAR(30))
+BEGIN
+SET FOREIGN_KEY_CHECKS=0;
+UPDATE user
+SET  user.email = eml
+where username =  eval;
+END
+
+//Αλλαγή κωδικού από τον employee
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `changeDataPasswordEmployee`(IN employee VARCHAR(12),IN newpassword VARCHAR(12))
+BEGIN 
+SET FOREIGN_KEY_CHECKS=0;
+UPDATE user 
+SET  password =  newpassword
+where username = employee;
+if (@rowcount > 0)
+THEN
+INSERT INTO logs VALUES
+( New.employee , 'Changing Password', TIMESTAMP);
+END IF;
+END
+
+//Αλλαγή κωδικού από τον evaluator
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `changeDataPasswordEvaluator`(IN evaluator VARCHAR(12),IN newpassword VARCHAR(12))
+BEGIN
+SET FOREIGN_KEY_CHECKS=0;
+UPDATE user 
+SET  password =  newpassword
+where username = evaluator;
+END
+
+//O Evaluator μπορεί να δημιουργήσει μια καινούργια θέση εργασίας
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `createJob`(IN job_id INT, IN evaluator VARCHAR(12),IN newsalary FLOAT(6,1),
+IN newposition VARCHAR(40),IN newedra VARCHAR(15), 
+IN announcement DATETIME, IN submission DATETIME)
+BEGIN
+INSERT INTO job VALUES
+(job_id , newsalary, newposition, newedra, evaluator, announcement, submission);
+END
+
+//Ο Employee μπορεί να διαγράψει μια αίτηση για δουλεια
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `DeleteJobApplication`(IN employ VARCHAR(12), IN jb int)
+BEGIN
+SET FOREIGN_KEY_CHECKS=0;
+DELETE FROM request_evaluation WHERE (request_evaluation.employee = employ) AND (request_evaluation.job_id = jb);
+
+if (@rowcount > 0)
+THEN
+INSERT INTO logs VALUES
+( employ , 'Delete Application for Job');
+END IF;
+END
+
+//Εμφανίζονται τα στοιχεία του employee
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `employeeFile`(IN employee VARCHAR(12))
+BEGIN
+SELECT bio, sistatikes, certificates, awards from employee where (emplUsername = employee);
+END
+
+//Εμφανίζεται η διαδικασία αξιολόγησης (πινακας evaluation_results)
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `evaluationProcedure`(IN evaluat VARCHAR(12))
+BEGIN
+SELECT evaluation_id, employee, job_id, comments, evaluation_results.evaluator, report, total_evaluation, grade FROM evaluation_results 
+INNER JOIN job ON evaluation_results.job_id = job.id
+WHERE job.evaluator = evaluat;
+END
+
+//Tα στοιχεία του evaluator
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `evaluatorFile`(IN evaluator VARCHAR(12))
+BEGIN
+SELECT name, surname, exp_years, firm, email from evaluator
+INNER JOIN user ON evaluator.evaluatorUsername = user.username
+WHERE (evaluatorUsername = evaluator);
+END
+
+//Οι δουλείες που είναι υπεύθυνος ο evaluator
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `evaluatorJobs`(IN evaluat VARCHAR(12))
+BEGIN
+SELECT * from job where job.evaluator = evaluat;
+END
+
+//O evaluator μπορεί να εισάγει βαθμούς για να ολοκληρωθεί η αξιολόγηση παρόμοιο και για gradeB , gradeC
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `insertGradeA`(IN evaluator VARCHAR(12), IN evaluationID INT, IN gradeA ENUM('0', '1', '2', '3', '4', 'Missing Grade') )
+BEGIN
+UPDATE evaluation_results 
+SET  evaluator = gradeA
+WHERE evaluation_id = evaluationID; 
+END
+
+//Ο Employee μπορεί να κάνει αίτηση για μια συγκεκριμένη δουλειά
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `JobApplication`(IN employee VARCHAR(12), IN job INT)
+BEGIN 
+SET FOREIGN_KEY_CHECKS=0;
+INSERT INTO request_evaluation VALUES 
+(employee , job);
+if (@rowcount > 0)
+THEN
+INSERT INTO logs VALUES
+( employee , 'Applying for Job', TIMESTAMP);
+END IF;
+END
+
+//Ο Evaluator μπορεί να δει τις δουλείες τις εταιρείας του
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `myCompanyPositions`(IN edra VARCHAR(12))
+BEGIN
+select job.id , evaluator from job
+
+WHERE job.edra = edra;
+
+END
+
+//Ο Evaluator μπορεί να αναζητήσει έναν χρηστη και να δει τα στοιχεία του.
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `SearchUser`(IN username VARCHAR(12))
+BEGIN
+SELECT name, surname, email FROM user
+WHERE user.username = username;
+END
+
+//Ο Evaluator μπορεί να ενημερώσει τα στοιχεία για μια θέση εργασίας
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `updateJob`(IN job_id INT, IN evaluator VARCHAR(12),IN newsalary FLOAT(6,1), IN announcement DATETIME, IN submission DATETIME)
+BEGIN
+SET FOREIGN_KEY_CHECKS=0;
+UPDATE job
+SET  salary =  newsalary,
+	announce_date = announcement,
+    submission_date = submission
+where (job.evaluator = evaluator) AND (job.id = job_id);
+END
+
+//Ο Employee μπορεί να δει τις αιτήσεις που εχει κάνει
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `vlepeAitiseis`(IN employee VARCHAR(12))
+BEGIN
+SELECT job_id as "Aitisi" from request_evaluation 
+INNER JOIN employee ON request_evaluation.employee = employee.emplUsername
+WHERE employee.emplUsername = employee;
+END
+
+
+
+
+

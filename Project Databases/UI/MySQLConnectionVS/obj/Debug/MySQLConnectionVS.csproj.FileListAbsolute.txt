@@ -1,0 +1,53 @@
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.AssemblyReference.cache
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.Login.resources
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.Properties.Resources.resources
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.GenerateResource.cache
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.CoreCompileInputs.cache
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.exe.config
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.exe
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.pdb
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.exe
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.pdb
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\MySql.Data.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\Google.Protobuf.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\Zstandard.Net.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\System.Memory.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\System.Buffers.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\bin\Debug\MySql.Data.xml
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.CopyComplete
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.frmEmployee.resources
+C:\Users\linos\Downloads\MySQLConnectionVS\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.frmEvaluator.resources
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.exe.config
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.exe
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\MySQLConnectionVS.pdb
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\MySql.Data.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\Google.Protobuf.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\Zstandard.Net.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\System.Memory.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\System.Buffers.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\bin\Debug\MySql.Data.xml
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.AssemblyReference.cache
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.SuggestedBindingRedirects.cache
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.frmEmployee.resources
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.frmEvaluator.resources
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.Login.resources
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.Properties.Resources.resources
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.GenerateResource.cache
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.CoreCompileInputs.cache
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.csproj.CopyComplete
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.exe
+C:\Users\linos\Downloads\CEID\ΧΕΙΜΕΡΙΝΟ ΕΞΑΜΗΝΟ 2021\ΒΑΣΕΙΣ ΔΕΔΟΜΕΝΩΝ\project_kalokairi\TELIKO\gui\MySQLConnectionVS\obj\Debug\MySQLConnectionVS.pdb

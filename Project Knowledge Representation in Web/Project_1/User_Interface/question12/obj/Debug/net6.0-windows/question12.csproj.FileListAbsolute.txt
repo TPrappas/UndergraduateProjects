@@ -1,0 +1,17 @@
+C:\CEID_projects\Representation\Question12\question12\question12\bin\Debug\net6.0-windows\question12.exe
+C:\CEID_projects\Representation\Question12\question12\question12\bin\Debug\net6.0-windows\question12.deps.json
+C:\CEID_projects\Representation\Question12\question12\question12\bin\Debug\net6.0-windows\question12.runtimeconfig.json
+C:\CEID_projects\Representation\Question12\question12\question12\bin\Debug\net6.0-windows\question12.dll
+C:\CEID_projects\Representation\Question12\question12\question12\bin\Debug\net6.0-windows\question12.pdb
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.csproj.AssemblyReference.cache
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.Form1.resources
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.csproj.GenerateResource.cache
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.GeneratedMSBuildEditorConfig.editorconfig
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.AssemblyInfoInputs.cache
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.AssemblyInfo.cs
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.csproj.CoreCompileInputs.cache
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.dll
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\refint\question12.dll
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.pdb
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\question12.genruntimeconfig.cache
+C:\CEID_projects\Representation\Question12\question12\question12\obj\Debug\net6.0-windows\ref\question12.dll
