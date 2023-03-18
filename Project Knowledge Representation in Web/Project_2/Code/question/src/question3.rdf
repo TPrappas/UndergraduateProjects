@@ -1,0 +1,756 @@
+<?xml version="1.0"?>
+<rdf:RDF 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:dc="https://eclass.upatras.gr/">
+
+<rdf:Description rdf:about="https://eclass.upatras.gr/Person">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+ 
+ 
+<rdf:Description rdf:about="https://eclass.upatras.gr/Student">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+<rdfs:subClassOf rdf:resource="https://eclass.upatras.gr/Person"/>
+</rdf:Description>
+ 
+ 
+<rdf:Description rdf:about="https://eclass.upatras.gr/Professor">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+<rdfs:subClassOf rdf:resource="https://eclass.upatras.gr/Person"/>
+</rdf:Description>
+ 
+
+<rdf:Description rdf:about="https://eclass.upatras.gr/Department">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+ 
+   
+<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+
+
+<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom">
+<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
+</rdf:Description>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/has_name">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Person"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/has_phone">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Person"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/has_email">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Person"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/has_age">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Person"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Integer"/>
+</rdf:Property>
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/member_of">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Person"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Department"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="https://eclass.upatras.gr/teaches">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Professor"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Lesson"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/les_name">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Lesson"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/taught_by">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Lesson"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Professor"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/dep_name">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Department"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/dep_city">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Department"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+
+<rdf:Property rdf:about="https://eclass.upatras.gr/room_name">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Classroom"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Literal"/>
+</rdf:Property>
+ 
+ 
+<rdf:Property rdf:about="https://eclass.upatras.gr/room_capacity">
+<rdfs:domain rdf:resource="https://eclass.upatras.gr/Department"/>
+<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema/Integer"/>
+</rdf:Property>
+
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department1">
+		<dc:dep_name>Agency of PC Control and Acquisition</dc:dep_name>
+		<dc:dep_city>Patras</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department2">
+		<dc:dep_name>Branch of PC Connectivity</dc:dep_name>
+		<dc:dep_city>Patras</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department3">
+		<dc:dep_name>Division of Application Backup and Connectivity</dc:dep_name>
+		<dc:dep_city>Patras</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department4">
+		<dc:dep_name>Division of Database Acquisition and Programming</dc:dep_name>
+		<dc:dep_city>Athens</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department5">
+		<dc:dep_name>Division of Statistical Application Acquisition and Backup</dc:dep_name>
+		<dc:dep_city>Athens</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Department/Department6">
+		<dc:dep_name>Telecommunications Networking Team</dc:dep_name>
+		<dc:dep_city>Athens</dc:dep_city>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Department"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom1">
+		<dc:room_name>A1</dc:room_name>
+		<dc:room_capacity>122</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom2">
+		<dc:room_name>A2</dc:room_name>
+		<dc:room_capacity>181</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom3">
+		<dc:room_name>A3</dc:room_name>
+		<dc:room_capacity>238</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom4">
+		<dc:room_name>A4</dc:room_name>
+		<dc:room_capacity>255</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom5">
+		<dc:room_name>A5</dc:room_name>
+		<dc:room_capacity>256</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom6">
+		<dc:room_name>A6</dc:room_name>
+		<dc:room_capacity>107</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom7">
+		<dc:room_name>A7</dc:room_name>
+		<dc:room_capacity>121</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom8">
+		<dc:room_name>A8</dc:room_name>
+		<dc:room_capacity>167</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom9">
+		<dc:room_name>A9</dc:room_name>
+		<dc:room_capacity>263</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom10">
+		<dc:room_name>A10</dc:room_name>
+		<dc:room_capacity>190</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom11">
+		<dc:room_name>A11</dc:room_name>
+		<dc:room_capacity>219</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom12">
+		<dc:room_name>A12</dc:room_name>
+		<dc:room_capacity>266</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom13">
+		<dc:room_name>A13</dc:room_name>
+		<dc:room_capacity>221</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom14">
+		<dc:room_name>A14</dc:room_name>
+		<dc:room_capacity>103</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom15">
+		<dc:room_name>A15</dc:room_name>
+		<dc:room_capacity>196</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom16">
+		<dc:room_name>A16</dc:room_name>
+		<dc:room_capacity>152</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom17">
+		<dc:room_name>A17</dc:room_name>
+		<dc:room_capacity>186</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom18">
+		<dc:room_name>A18</dc:room_name>
+		<dc:room_capacity>244</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom19">
+		<dc:room_name>A19</dc:room_name>
+		<dc:room_capacity>131</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom20">
+		<dc:room_name>A20</dc:room_name>
+		<dc:room_capacity>112</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom21">
+		<dc:room_name>A21</dc:room_name>
+		<dc:room_capacity>289</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom22">
+		<dc:room_name>A22</dc:room_name>
+		<dc:room_capacity>205</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom23">
+		<dc:room_name>A23</dc:room_name>
+		<dc:room_capacity>253</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom24">
+		<dc:room_name>A24</dc:room_name>
+		<dc:room_capacity>130</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom25">
+		<dc:room_name>A25</dc:room_name>
+		<dc:room_capacity>105</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom26">
+		<dc:room_name>A26</dc:room_name>
+		<dc:room_capacity>157</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom27">
+		<dc:room_name>A27</dc:room_name>
+		<dc:room_capacity>239</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom28">
+		<dc:room_name>A28</dc:room_name>
+		<dc:room_capacity>145</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Classroom/Classroom29">
+		<dc:room_name>A29</dc:room_name>
+		<dc:room_capacity>130</dc:room_capacity>
+		<dc:room_department rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Classroom"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student1">
+		<dc:has_name>Daniel</dc:has_name>
+		<dc:has_phone>6912161578</dc:has_phone>
+		<dc:has_email>Daniel@upnet.gr</dc:has_email>
+		<dc:has_age>18</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student2">
+		<dc:has_name>Carolina</dc:has_name>
+		<dc:has_phone>6938933538</dc:has_phone>
+		<dc:has_email>Carolina@upnet.gr</dc:has_email>
+		<dc:has_age>18</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student3">
+		<dc:has_name>David</dc:has_name>
+		<dc:has_phone>6941105366</dc:has_phone>
+		<dc:has_email>David@upnet.gr</dc:has_email>
+		<dc:has_age>17</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student4">
+		<dc:has_name>Reina</dc:has_name>
+		<dc:has_phone>6910976453</dc:has_phone>
+		<dc:has_email>Reina@upnet.gr</dc:has_email>
+		<dc:has_age>27</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student5">
+		<dc:has_name>Saul</dc:has_name>
+		<dc:has_phone>6934039709</dc:has_phone>
+		<dc:has_email>Saul@upnet.gr</dc:has_email>
+		<dc:has_age>20</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student6">
+		<dc:has_name>Bernard</dc:has_name>
+		<dc:has_phone>6925115779</dc:has_phone>
+		<dc:has_email>Bernard@upnet.gr</dc:has_email>
+		<dc:has_age>16</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student7">
+		<dc:has_name>Danny</dc:has_name>
+		<dc:has_phone>6943903520</dc:has_phone>
+		<dc:has_email>Danny@upnet.gr</dc:has_email>
+		<dc:has_age>15</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student8">
+		<dc:has_name>Dimas</dc:has_name>
+		<dc:has_phone>6971826238</dc:has_phone>
+		<dc:has_email>Dimas@upnet.gr</dc:has_email>
+		<dc:has_age>25</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student9">
+		<dc:has_name>Yuri</dc:has_name>
+		<dc:has_phone>6966346095</dc:has_phone>
+		<dc:has_email>Yuri@upnet.gr</dc:has_email>
+		<dc:has_age>19</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student10">
+		<dc:has_name>Ivan</dc:has_name>
+		<dc:has_phone>6999735685</dc:has_phone>
+		<dc:has_email>Ivan@upnet.gr</dc:has_email>
+		<dc:has_age>14</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student11">
+		<dc:has_name>Laura</dc:has_name>
+		<dc:has_phone>6913899657</dc:has_phone>
+		<dc:has_email>Laura@upnet.gr</dc:has_email>
+		<dc:has_age>26</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student12">
+		<dc:has_name>Tapia</dc:has_name>
+		<dc:has_phone>6963813173</dc:has_phone>
+		<dc:has_email>Tapia@upnet.gr</dc:has_email>
+		<dc:has_age>12</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student13">
+		<dc:has_name>Gutierrez</dc:has_name>
+		<dc:has_phone>6972971479</dc:has_phone>
+		<dc:has_email>Gutierrez@upnet.gr</dc:has_email>
+		<dc:has_age>29</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student14">
+		<dc:has_name>Rueda</dc:has_name>
+		<dc:has_phone>6965174180</dc:has_phone>
+		<dc:has_email>Rueda@upnet.gr</dc:has_email>
+		<dc:has_age>15</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student15">
+		<dc:has_name>Galviz</dc:has_name>
+		<dc:has_phone>6977518688</dc:has_phone>
+		<dc:has_email>Galviz@upnet.gr</dc:has_email>
+		<dc:has_age>27</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student16">
+		<dc:has_name>Yuli</dc:has_name>
+		<dc:has_phone>6981262485</dc:has_phone>
+		<dc:has_email>Yuli@upnet.gr</dc:has_email>
+		<dc:has_age>21</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student17">
+		<dc:has_name>Rivera</dc:has_name>
+		<dc:has_phone>6975754859</dc:has_phone>
+		<dc:has_email>Rivera@upnet.gr</dc:has_email>
+		<dc:has_age>26</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student18">
+		<dc:has_name>Mamami</dc:has_name>
+		<dc:has_phone>6945330078</dc:has_phone>
+		<dc:has_email>Mamami@upnet.gr</dc:has_email>
+		<dc:has_age>23</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student19">
+		<dc:has_name>Saucedo</dc:has_name>
+		<dc:has_phone>6985068366</dc:has_phone>
+		<dc:has_email>Saucedo@upnet.gr</dc:has_email>
+		<dc:has_age>25</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Student/Student20">
+		<dc:has_name>Martin</dc:has_name>
+		<dc:has_phone>6955225070</dc:has_phone>
+		<dc:has_email>Martin@upnet.gr</dc:has_email>
+		<dc:has_age>28</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Student"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor1">
+		<dc:has_name>Williams</dc:has_name>
+		<dc:has_phone>6973728883</dc:has_phone>
+		<dc:has_email>Williams@upatras.gr</dc:has_email>
+		<dc:has_age>28</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department5"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson1">
+		<dc:les_name>Databases II</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor1"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor2">
+		<dc:has_name>Jones</dc:has_name>
+		<dc:has_phone>6937580407</dc:has_phone>
+		<dc:has_email>Jones@upatras.gr</dc:has_email>
+		<dc:has_age>23</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson12"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson2">
+		<dc:les_name>Logic Design I</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor2"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor3">
+		<dc:has_name>Bown</dc:has_name>
+		<dc:has_phone>6934914607</dc:has_phone>
+		<dc:has_email>Bown@upatras.gr</dc:has_email>
+		<dc:has_age>26</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson8"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson3">
+		<dc:les_name>Logic Design II</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor3"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor4">
+		<dc:has_name>David</dc:has_name>
+		<dc:has_phone>6981824206</dc:has_phone>
+		<dc:has_email>David@upatras.gr</dc:has_email>
+		<dc:has_age>44</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson8"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson4">
+		<dc:les_name>Software Technology</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor4"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor5">
+		<dc:has_name>Miller</dc:has_name>
+		<dc:has_phone>6942141676</dc:has_phone>
+		<dc:has_email>Miller@upatras.gr</dc:has_email>
+		<dc:has_age>31</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department1"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson10"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson5">
+		<dc:les_name>CPU Architecture I</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor5"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor6">
+		<dc:has_name>Wilson</dc:has_name>
+		<dc:has_phone>6919794717</dc:has_phone>
+		<dc:has_email>Wilson@upatras.gr</dc:has_email>
+		<dc:has_age>27</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department3"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson7"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson6">
+		<dc:les_name>CPU Architecture II</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor6"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor7">
+		<dc:has_name>Anderson</dc:has_name>
+		<dc:has_phone>6943139371</dc:has_phone>
+		<dc:has_email>Anderson@upatras.gr</dc:has_email>
+		<dc:has_age>30</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson5"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson7">
+		<dc:les_name>Web</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor7"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor8">
+		<dc:has_name>Thomas</dc:has_name>
+		<dc:has_phone>6964356381</dc:has_phone>
+		<dc:has_email>Thomas@upatras.gr</dc:has_email>
+		<dc:has_age>41</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department4"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson9"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson8">
+		<dc:les_name>Operating Systems</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor8"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor9">
+		<dc:has_name>Jackson</dc:has_name>
+		<dc:has_phone>6975811741</dc:has_phone>
+		<dc:has_email>Jackson@upatras.gr</dc:has_email>
+		<dc:has_age>32</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson3"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson9">
+		<dc:les_name>Knowledge Representation in Web</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor9"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Professor/Professor10">
+		<dc:has_name>Wite</dc:has_name>
+		<dc:has_phone>6945004250</dc:has_phone>
+		<dc:has_email>Wite@upatras.gr</dc:has_email>
+		<dc:has_age>42</dc:has_age>
+		<dc:member_of rdf:resource="https://eclass.upatras.gr/Department/Department2"/>
+		<dc:teaches rdf:resource ="https://eclass.upatras.gr/Lesson/Lesson7"/>
+		<rdf:type rdf:resource="https://eclass.upatras.gr/Professor"/>
+	</rdf:Description>
+
+
+	<rdf:Description rdf:about="https://eclass.upatras.gr/Lesson/Lesson10">
+		<dc:les_name>Data Structures</dc:les_name>
+		<dc:taught_by rdf:resource="https://eclass.upatras.gr/Professor/Professor10"/>
+	</rdf:Description>
+
+
+
+
+
+</rdf:RDF>

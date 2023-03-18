@@ -1,0 +1,62 @@
+SELECT ?coach
+WHERE 
+{
+    ?coach rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Coach>.
+    OPTIONAL 
+    {
+        ?coach <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Age>50
+    }
+}
+ORDER BY ?coach
+
+SELECT ?playerPosition 
+WHERE 
+{
+    {
+        ?playerPosition rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#PointGuard>.
+    }
+    UNION
+    {
+        ?playerPosition rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#PowerForward>
+    }
+}
+ORDER BY ?playerPosition
+
+SELECT (MAX(?height) AS ?MaxHeight) 
+WHERE
+{
+    {
+        ?instance rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Player>.
+        ?instance <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Height> ?height
+    }
+}
+
+SELECT (MAX(?age) AS ?MaxAge) 
+WHERE
+{
+    {
+        ?instance rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Coach>.
+        ?instance <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Age> ?age
+    }
+}
+
+SELECT ?coach 
+WHERE 
+{
+    ?coach rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Coach>.
+    ?coach <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Age> ?age
+    FILTER(?age < 50)
+}
+
+SELECT DISTINCT ?coach 
+WHERE 
+{
+    ?coach rdf:type <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Coach>.
+    ?coach <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Age> ?age
+    FILTER(?age < 50)
+    OPTIONAL
+    {
+        ?coach <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Coaches> 
+        <http://www.semanticweb.org/linos/ontologies/2023/0/Basketball#Los_Angeles_Lakers>
+    }
+}

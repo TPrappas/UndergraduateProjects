@@ -1,0 +1,70 @@
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\OwlTranslator.exe
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\OwlTranslator.deps.json
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\OwlTranslator.runtimeconfig.json
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\OwlTranslator.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\OwlTranslator.pdb
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\AngleSharp.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\dotNetRDF.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\HtmlAgilityPack.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\VDS.Common.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.AssemblyReference.cache
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.GeneratedMSBuildEditorConfig.editorconfig
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.AssemblyInfoInputs.cache
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.AssemblyInfo.cs
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.CoreCompileInputs.cache
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.CopyComplete
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\refint\OwlTranslator.dll
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.pdb
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\OwlTranslator.genruntimeconfig.cache
+D:\CEID\Αναπαράσταση\Project\Ex7\OwlTranslator\OwlTranslator\obj\Debug\net6.0\ref\OwlTranslator.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\OwlTranslator.exe
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\OwlTranslator.deps.json
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\OwlTranslator.runtimeconfig.json
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\OwlTranslator.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\OwlTranslator.pdb
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\AngleSharp.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\dotNetRDF.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\HtmlAgilityPack.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\VDS.Common.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.AssemblyReference.cache
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.AssemblyInfoInputs.cache
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.AssemblyInfo.cs
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.CoreCompileInputs.cache
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.csproj.CopyComplete
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\refint\OwlTranslator.dll
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.pdb
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\OwlTranslator.genruntimeconfig.cache
+C:\Github_UndergraduateProjects\UndergraduateProjects\Project Knowledge Representation in Web\Final_Project\OwlTranslator\obj\Debug\net6.0\ref\OwlTranslator.dll
